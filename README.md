@@ -11,7 +11,7 @@ This document provides step-by-step instructions to help you install and set up 
 You can install the Officaial Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Mainnet-Compute-Node/releases).
 
 ```bash
-curl -L https://github.com/Iagonorg/Mainnet-Compute-Node/releases/download/0.1.0-beta/iag-compute-cli | sudo bash
+wget -qO- https://github.com/Iagonorg/Mainnet-Compute-Node/releases/download/0.1.0-beta/iag-compute-cli | sudo bash
 ```
 
 The script installs and configures necessary 3rd party trusted packages as dependencies, which includes:
