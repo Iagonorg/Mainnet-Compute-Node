@@ -8,10 +8,10 @@ This document provides step-by-step instructions to help you install and set up 
 
 ## Installation
 
-You can install the Officaial Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Mainnet-Compute-Node/releases).
+You can install the Official Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Mainnet-Compute-Node/releases).
 
 ```bash
-wget -qO-  https://github.com/Iagonorg/Mainnet-Compute-Node/releases/download/0.1.0-beta/install.sh | sudo bash
+wget -qO- https://github.com/Iagonorg/Mainnet-Compute-Node/releases/download/v0.2.0-beta/install.sh | sudo bash
 ```
 
 The script installs and configures necessary 3rd party trusted packages as dependencies, which includes:
@@ -19,6 +19,14 @@ The script installs and configures necessary 3rd party trusted packages as depen
 - fio, sysbench (for benchmarking)
 - nginx (for reverse proxy)
 - kvm and libvirt (for resource isolation through virtual machine)
+
+## Update from previous versions
+
+You can update your compute node binary to latest version by using our update.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Mainnet-Compute-Node/releases).
+
+```bash
+wget -qO- https://github.com/Iagonorg/Mainnet-Compute-Node/releases/download/v0.2.0-beta/update.sh | sudo bash
+```
 
 ### Prerequisites
 
